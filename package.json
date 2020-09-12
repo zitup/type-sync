@@ -1,0 +1,20 @@
+{
+  "name": "type-sync",
+  "version": "1.0.0",
+  "description": "Install @types/package automatically when npm install package or yarn add package",
+  "main": "index.js",
+  "author": "zit",
+  "license": "MIT",
+  "bin": {
+    "type-sync": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "node ./run.js"
+  },
+  "keywords": [
+    "typescript",
+    "typesync",
+    "type-sync",
+    "types-auto"
+  ]
+}
