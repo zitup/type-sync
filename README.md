@@ -1,2 +1,4 @@
-TODO 
-如果没有找到@types/package，不会执行操作且没有提示
+## TODO
+
+1. 完全匹配安装命令（add、install）
+2. 删除包（uninstall、remove）操作处理
