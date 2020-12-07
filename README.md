@@ -5,6 +5,16 @@
 3. npm install @types/package -D --ignore-scrpts 仍然触发 type-sync scirpts postinstall
 (2,3 无实际影响，有一些干扰信息)
 
+## yarn 使用
+
+需要在`package.json`中添加`postinstall`
+
+```json
+  "scripts": {
+    "postinstall": "type-sync"
+  }
+```
+
 ## TODO
 
 1. 完全匹配安装命令（add、install）
