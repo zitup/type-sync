@@ -1,10 +1,14 @@
 {
   "name": "type-sync",
   "version": "1.0.0",
-  "description": "Install @types/package automatically when npm install package or yarn add package",
+  "description": "install @types/package auto when yarn add package",
   "main": "index.js",
-  "author": "zit",
+  "author": "zitup",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zytjs/type-sync.git"
+  },
   "bin": {
     "type-sync": "./index.js"
   },
